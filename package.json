@@ -1,0 +1,28 @@
+{
+  "name": "kube-secret-manager",
+  "version": "1.0.0",
+  "description": "config and secrets manager for kubernetes cluster",
+  "main": "index.js",
+  "bin": {
+    "seal-secret": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "babel index.js -d bin",
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahendra",
+  "license": "ISC",
+  "dependencies": {
+    "change-case": "^3.1.0",
+    "commander": "^2.20.0",
+    "inquirer": "^6.3.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
+  }
+}

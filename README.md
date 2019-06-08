@@ -1,4 +1,4 @@
-# Environment variables manager for ratecity apps
+# Environment variables manager for apps running on kubernetes cluster
 ## Pre-requisites
 
 - You need to have `kubectl` and `kubeseal` configured
@@ -13,4 +13,3 @@
 - Once the one of the above steps are successfully implemented
 
   - Run `kubectl apply -f path/to/file/sealedSecrets.json`
-# kube-secret-manager
